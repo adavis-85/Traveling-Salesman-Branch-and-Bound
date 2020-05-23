@@ -1,6 +1,6 @@
 # Traveling-Salesman-Branch-and-Bound
  
-       Solving the Traveling Salesman problem can be useful across most areas of business .  It could find the best distance to 
+   Solving the Traveling Salesman problem can be useful across most areas of business .  It could find the best distance to 
 build factories to have the minimum distance between distribution centers needed to travel to, saving on gas and drivers for trucks.
 The distance between circuits on a circuit board could be found to minimize travel time, also the travel times for a city
 subway.  The math behind this problem is not hard to do as long as the distances between points or the separate paths to each
@@ -62,8 +62,6 @@ locations the time increases.  The ten nodes took 0.03816308599925833 seconds.  
 is shown and only the time will be shown:
 
 ```
-test=np.inf
-
 a=np.random.rand(100,100)
 for i in range(0,100):
     a[i,i]=np.inf
