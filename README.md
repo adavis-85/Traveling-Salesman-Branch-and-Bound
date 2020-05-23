@@ -38,24 +38,24 @@ The program ran and now we can see how long that took to find the optimal path a
 ```
 execution_time=end-start
 
-path [0, 6, 1, 4, 5, 9, 3, 8, 2, 7, 0] incumbent 46374.93894019773
-1.7910129668272092 path cost
-4.6670471133412095 possible incumbent
-[0, 1, 4, 5, 9, 3, 8, 6, 2, 7, 0] possible path
-2.784232575018332 path cost
-2.891533780525485 path cost
-3.0695422249127793 path cost
-3.15106393905938 path cost
-3.7424467662696794 path cost
-3.8791948666974307 path cost
+path [0, 6, 4, 1, 3, 2, 8, 5, 9, 7, 0] incumbent 50370.40695668628
+1.9621150419345175 path cost
+4.954884608193991 possible incumbent
+[0, 1, 3, 2, 6, 8, 4, 5, 9, 7, 0] possible path
+2.321053891494003 path cost
+2.536498758218169 path cost
+3.0238086650517646 path cost
+3.1607722122278505 path cost
+4.042616500365336 path cost
+4.723406338922661 path cost
 
 execution_time
 
-0.03816308599925833
+0.039798703997803386
 
 see
 
-(4.90197525369645, [0, 7, 1, 5, 9, 4, 3, 2, 6, 8, 0])
+(4.954884608193991, [0, 1, 3, 2, 6, 8, 4, 5, 9, 7, 0])
 ```
 The incumbent path is shown first for comparison.  Each path cost at each node that was searched is next shown followed
 by "path cost".  When the function finds a better optimal path, the possible incumbent cost and possible path are then 
