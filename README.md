@@ -38,24 +38,25 @@ The program ran and now we can see how long that took to find the optimal path a
 ```
 execution_time=end-start
 
-path [0, 6, 4, 1, 3, 2, 8, 5, 9, 7, 0] incumbent 50370.40695668628
-1.9621150419345175 path cost
-4.954884608193991 possible incumbent
-[0, 1, 3, 2, 6, 8, 4, 5, 9, 7, 0] possible path
-2.321053891494003 path cost
-2.536498758218169 path cost
-3.0238086650517646 path cost
-3.1607722122278505 path cost
-4.042616500365336 path cost
-4.723406338922661 path cost
+path [0, 1, 7, 2, 8, 5, 3, 9, 6, 4, 0] incumbent 4.930390644923829
+1.777375404605468 path cost
+4.7349225108018835 possible incumbent
+[0, 2, 1, 3, 7, 8, 5, 9, 6, 4, 0] possible path
+1.777375404605468 path cost
+2.1535469558826454 path cost
+2.2639478156056745 path cost
+2.6539892664284825 path cost
+2.932581746981628 path cost
+3.4905586683858325 path cost
+4.734240574982438 path cost
 
 execution_time
 
-0.039798703997803386
+0.039462690001528244
 
 see
 
-(4.954884608193991, [0, 1, 3, 2, 6, 8, 4, 5, 9, 7, 0])
+(4.7349225108018835, [0, 2, 1, 3, 7, 8, 5, 9, 6, 4, 0])
 ```
 The incumbent path is shown first for comparison.  Each path cost at each node that was searched is next shown followed
 by "path cost".  When the function finds a better optimal path, the possible incumbent cost and possible path are then 
@@ -78,8 +79,8 @@ And the execution time to run.
 ```
 execution_time
 
-882.6312637529991
+862.5806735330043
 
 ```
-882.6312637529991 seconds!  Or 14.710521062549985 minutes.  With optimization like this there is always a worst-case scenario where the values might all be close in value to each other therefore causing a very long and complex search.  Programs can be fine
+862.5806735330043 seconds!  Or 14.376344558883405 minutes.  With optimization like this there is always a worst-case scenario where the values might all be close in value to each other therefore causing a very long and complex search.  Programs can be fine
 tuned to obtain a faster time.
