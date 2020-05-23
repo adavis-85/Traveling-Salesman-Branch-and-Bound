@@ -33,7 +33,9 @@ print("path",incumbent_path,"incumbent",incumbent_value)
 see=b_track(test,incumbent_value,incumbent_path)
     
 end=perf_counter()
-
+```
+The program ran and now we can see how long that took to find the optimal path and best obtainable solution.
+```
 execution_time=end-start
 
 path [0, 6, 1, 4, 5, 9, 3, 8, 2, 7, 0] incumbent 46374.93894019773
@@ -77,6 +79,5 @@ execution_time
 882.6312637529991
 
 ```
-882.6312637529991 seconds!  Or 14.710521062549985 minutes.  With optimization like this there is always a worst-case scenario where 
-the values might all be close in value to each other therefore causing a very long and complex search.  Run-times can be fine
+882.6312637529991 seconds!  Or 14.710521062549985 minutes.  With optimization like this there is always a worst-case scenario where the values might all be close in value to each other therefore causing a very long and complex search.  Programs can be fine
 tuned to obtain a faster time.
