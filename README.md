@@ -1,4 +1,4 @@
-# Traveling-Salesman-Branch-and-Bound
+# Traveling Salesman Branch and Bound
  
    Solving the Traveling Salesman problem can be useful across most areas of business .  It could find the best distance to 
 build factories to have the minimum distance between distribution centers needed to travel to, saving on gas and drivers for trucks.
