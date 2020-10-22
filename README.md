@@ -67,13 +67,7 @@ is shown and only the time will be shown:
 ```
 a=np.random.rand(100,100)
 for i in range(0,100):
-    a[i,i]=np.inf
-        
-A=cp.deepcopy(a)
-nv=[]
-mn=[]
-visited_at=[]
-tv=[]
+    a[i,i]=no.inf
 ```
 And the execution time to run.
 ```
