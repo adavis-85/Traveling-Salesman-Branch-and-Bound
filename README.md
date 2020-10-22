@@ -67,7 +67,7 @@ is shown and only the time will be shown:
 ```
 a=np.random.rand(100,100)
 for i in range(0,100):
-    a[i,i]=no.inf
+    a[i,i]=np.inf
 ```
 And the execution time to run.
 ```
